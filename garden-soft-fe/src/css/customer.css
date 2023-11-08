@@ -1,0 +1,8 @@
+.content-title {
+    border-right: 1px solid #fff; /* Đường viền phải của mỗi cột */
+}
+
+/* Loại bỏ đường viền phải ở cột cuối cùng */
+.content-title:last-child {
+    border-right: none;
+}
